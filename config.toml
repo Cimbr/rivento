@@ -1,5 +1,5 @@
 #my file
-baseurl = "https://www.rivento.co.uk"
+baseurl = "https://rivento.co.uk/"
 languageCode = "en-us"
 title = "rivento"
 theme = "hugo-creative-theme"
