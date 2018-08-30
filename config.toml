@@ -1,0 +1,109 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "rivento"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.png"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "rivento"
+
+		[params.navigation.links]
+			about     = "What"
+			services  = "How"
+			portfolio = "Why"
+			contact   = "Who"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Events are about people"
+		subtitle   = " "
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "What is rivento?"
+		description = "Rivento provides organisers with ways to involve, engage and inspire audiences and obtain meaningful insights from the tapestry of data that is created.<br> <br>It allows participants to express their opinions freely and gives them simple-to-use tools to explore the content available and make the most of their personal investment in the events they attend."
+		buttonText  = ""
+
+
+	# Service section
+	[params.services]
+		headline = "How does it work?"
+
+        [[params.services.list]]
+            icon = "fa-random"
+            title = "Flexible"
+            description = "Every event is different and has different needs and desired outcomes."
+
+        [[params.services.list]]
+			icon = "fa-id-badge"
+			title = "Tailored"
+			description = "Rivento allows organisers to create a custom Event App for their participants with personalised information."
+
+		[[params.services.list]]
+            icon = "fa-users"
+            title = "Inclusive"
+            description = "Attendees can experience it on their own smartphone or for a fully captivating experience, on a dedicated tablet."
+
+        [[params.services.list]]
+            icon = "fa-life-ring"
+            title = "Support"
+            description = "We can provide highly experienced technicians, and also install a private WiFi network to ensure the best coverage."
+
+
+    # Portfolio modals
+	[params.portfolio]
+		headline = "Why use Rivento"
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = ""
+        buttonText = "Return"
+
+    # Aside section
+	[params.aside]
+		headline = "We don't build apps or solutions, we build relationships."
+
+#		[params.aside.button]
+#			text = "Download now"
+#			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Who we are"
+		description = "Rivento is produced by Group Dynamics, pioneers in Event Technology who have been creating innovative solutions since the early 1980’s."
+		phone ="+44 (0) 208 991 9559"
+		email = "info@rivento.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
