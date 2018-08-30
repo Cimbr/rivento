@@ -1,5 +1,5 @@
 #my file
-baseurl = "https://example.org/"
+baseurl = "https://blissful-babbage-d85e53.netlify.com/"
 languageCode = "en-us"
 title = "rivento"
 theme = "hugo-creative-theme"
