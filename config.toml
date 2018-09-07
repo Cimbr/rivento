@@ -3,7 +3,8 @@ baseurl = "https://www.rivento.co.uk/"
 languageCode = "en-us"
 title = "rivento"
 theme = "hugo-creative-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-125396268-1"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 
